@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Notif</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Hola Esposa</string>
+    <string name="second_fragment_label">Te quiero mucho</string>
+    <string name="next">Dale aqui</string>
+    <string name="previous">Ya</string>
+
+    <string name="hello_first_fragment">Hola</string>
+    <string name="hello_second_fragment">Hola. Arg: %1$s</string>
+</resources>
