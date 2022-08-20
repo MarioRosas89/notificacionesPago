@@ -10,7 +10,6 @@ import android.app.Notification
 import android.view.View
 import androidx.annotation.RequiresApi
 import com.example.notif.FirstFragment
-import java.lang.Exception
 
 class NotifyDemoActivity : AppCompatActivity() {
 
@@ -35,24 +34,16 @@ class NotifyDemoActivity : AppCompatActivity() {
         val notificationID = 101
 
         val channelID = "com.example.nofit"
-        try {
-            val notification = Notification.Builder(this@NotifyDemoActivity,
-                channelID)
-                .setContentTitle("Example Notification")
-                .setContentText("This is an  example notification.")
-                .setSmallIcon(android.R.drawable.ic_dialog_info)
-                .setChannelId(channelID)
-                .build()
 
-            notificationManager?.notify(notificationID, notification)
+        val notification = Notification.Builder(this@NotifyDemoActivity,
+            channelID)
+            .setContentTitle("Example Notification")
+            .setContentText("This is an  example notification.")
+            .setSmallIcon(android.R.drawable.ic_dialog_info)
+            .setChannelId(channelID)
+            .build()
 
-        }
-        catch (e : Exception)
-        {
-           var message = e.message
-        }
-
-
+        notificationManager?.notify(notificationID, notification)
 
     }
 

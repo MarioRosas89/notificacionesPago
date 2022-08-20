@@ -6,7 +6,9 @@
     <string name="second_fragment_label">Te quiero mucho</string>
     <string name="next">Dale aqui</string>
     <string name="previous">Ya</string>
-
+    <string name="eggs_ready">Ya</string>
+    <string name="egg_notification_channel_id" translatable="false">egg_channel</string>
     <string name="hello_first_fragment">Hola</string>
     <string name="hello_second_fragment">Hola. Arg: %1$s</string>
+    <string name="title_activity_view_reminder">ViewReminderActivit</string>
 </resources>
